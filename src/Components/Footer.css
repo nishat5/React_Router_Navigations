@@ -1,0 +1,36 @@
+.footer {
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+p {
+  padding: 3px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.footerTitle {
+  margin: 5px 0;
+}
+
+.footer p:hover {
+  /* border-top: 1px solid rgb(238, 236, 233); */
+  display: inline-block;
+  color: skyblue;
+  transition: all 0.5s ease;
+  /* padding: 1px; */
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
